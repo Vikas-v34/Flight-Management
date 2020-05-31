@@ -23,6 +23,18 @@ import { SearchScheduledFlightComponent } from './search-scheduled-flight/search
 import { ModifyScheduledFlightComponent } from './modify-scheduled-flight/modify-scheduled-flight.component';
 import { ModelComponent } from './model/model.component';
 import { ListUserComponent } from './list-user/list-user.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { FlightListComponent } from './flight-list/flight-list.component';
+import { FlightDetailsComponent } from './flight-details/flight-details.component';
+import { CreateFlightComponent } from './create-flight/create-flight.component';
+import { CreateBookingComponent } from './create-booking/create-booking.component';
+import { CreateAirportComponent } from './create-airport/create-airport.component';
+import { BookingListComponent } from './booking-list/booking-list.component';
+import { BookingConfirmedComponent } from './booking-confirmed/booking-confirmed.component';
+import { AirportListComponent } from './airport-list/airport-list.component';
+import { AirportDetailsComponent } from './airport-details/airport-details.component';
+import { AddScheduledFlightComponent } from './add-scheduled-flight/add-scheduled-flight.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +59,19 @@ import { ListUserComponent } from './list-user/list-user.component';
     SearchScheduledFlightComponent,
     ModifyScheduledFlightComponent,
     ModelComponent,
-    ListUserComponent
+    ListUserComponent,
+    HeaderComponent,
+    FooterComponent,
+    FlightListComponent,
+    FlightDetailsComponent,
+    CreateFlightComponent,
+    CreateBookingComponent,
+    CreateAirportComponent,
+    BookingListComponent,
+    BookingConfirmedComponent,
+    AirportListComponent,
+    AirportDetailsComponent,
+    AddScheduledFlightComponent
   ],
   imports: [
     BrowserModule,
