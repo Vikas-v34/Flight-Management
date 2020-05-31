@@ -9,6 +9,9 @@ import { AddUserComponent } from './add-user/add-user.component';
 import { HomeComponent } from './home/home.component';
 import { LogoutComponent } from './logout/logout.component';
 import { SignupComponent } from './signup/signup.component';
+import { CreateUserComponent } from './create-user/create-user.component';
+import { UpdateUserComponent } from './update-user/update-user.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { SignupComponent } from './signup/signup.component';
     AddUserComponent,
     HomeComponent,
     LogoutComponent,
-    SignupComponent
+    SignupComponent,
+    CreateUserComponent,
+    UpdateUserComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,
