@@ -14,6 +14,15 @@ import { UpdateUserComponent } from './update-user/update-user.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { UpdateflightsComponent } from './updateflights/updateflights.component';
 import { FlightdetailsComponent } from './flightdetails/flightdetails.component';
+import { WelcomeAdminComponent } from './welcome-admin/welcome-admin.component';
+import { UpdateBookingComponent } from './update-booking/update-booking.component';
+import { UpdateAirportComponent } from './update-airport/update-airport.component';
+import { ShowScheduledFlightsComponent } from './show-scheduled-flights/show-scheduled-flights.component';
+import { ServicesComponent } from './services/services.component';
+import { SearchScheduledFlightComponent } from './search-scheduled-flight/search-scheduled-flight.component';
+import { ModifyScheduledFlightComponent } from './modify-scheduled-flight/modify-scheduled-flight.component';
+import { ModelComponent } from './model/model.component';
+import { ListUserComponent } from './list-user/list-user.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +38,16 @@ import { FlightdetailsComponent } from './flightdetails/flightdetails.component'
     UpdateUserComponent,
     UserDetailsComponent,
     UpdateflightsComponent,
-    FlightdetailsComponent
+    FlightdetailsComponent,
+    WelcomeAdminComponent,
+    UpdateBookingComponent,
+    UpdateAirportComponent,
+    ShowScheduledFlightsComponent,
+    ServicesComponent,
+    SearchScheduledFlightComponent,
+    ModifyScheduledFlightComponent,
+    ModelComponent,
+    ListUserComponent
   ],
   imports: [
     BrowserModule,
