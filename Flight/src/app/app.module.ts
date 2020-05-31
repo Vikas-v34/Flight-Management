@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { AddflightComponent } from './addflight/addflight.component';
 import { LoginComponent } from './login/login.component';
 import { AddUserComponent } from './add-user/add-user.component';
+import { CreateUserComponent } from './create-user/create-user.component';
+import { UpdateUserComponent } from './update-user/update-user.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddflightComponent,
     LoginComponent,
-    AddUserComponent
+    AddUserComponent,
+    CreateUserComponent,
+    UpdateUserComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,
