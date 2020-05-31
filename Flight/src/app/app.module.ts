@@ -12,6 +12,8 @@ import { SignupComponent } from './signup/signup.component';
 import { CreateUserComponent } from './create-user/create-user.component';
 import { UpdateUserComponent } from './update-user/update-user.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import { UpdateflightsComponent } from './updateflights/updateflights.component';
+import { FlightdetailsComponent } from './flightdetails/flightdetails.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { UserDetailsComponent } from './user-details/user-details.component';
     SignupComponent,
     CreateUserComponent,
     UpdateUserComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    UpdateflightsComponent,
+    FlightdetailsComponent
   ],
   imports: [
     BrowserModule,
